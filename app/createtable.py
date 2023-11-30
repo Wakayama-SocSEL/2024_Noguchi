@@ -2,7 +2,11 @@ import pandas as pd
 import os
 from namelist import namelist
 
+<<<<<<< HEAD
 NUM_PROJECT=2
+=======
+NUM_PROJECT=3
+>>>>>>> 39c50fa7e3e8e219c697133b819075baee6b7328
 PROJECT_NAME_LIST = namelist.getProjectName(NUM_PROJECT)
 NAME_ID_DICT = namelist.getNameIdDict()
 
