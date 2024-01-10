@@ -1,10 +1,10 @@
-version: "3" 
-services: 
-  app: 
-    build:
-      context: .
+version: "3"
+services:
+  app:
+    build: ./app
     container_name: 2024_Noguchi
-    tty: true  
+    tty: true
     volumes:
       - ./app:/work
-    working_dir: '/work' 
+    working_dir: '/work'
+
