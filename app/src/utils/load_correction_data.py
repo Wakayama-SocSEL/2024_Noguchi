@@ -1,6 +1,6 @@
 import pandas as pd
 
-#プロジェクト名の出力
+#csvファイルのカラムのリストの出力
 def get_project_name(csvfile):
     input_df = pd.read_csv(csvfile, index_col=0)
     project_name_list = input_df.columns
